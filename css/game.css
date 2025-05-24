@@ -1,0 +1,90 @@
+/* CSS Document */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f8ff;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    color: #2e8b57;
+    font-size: 2.5em;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#score {
+    font-size: 1.5em;
+    color: #ff4500;
+    margin-right: 20px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#start_button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start_button:hover {
+    background-color: #45a049;
+}
+
+#gamespace {
+    margin: 20px;
+	padding: 10px;
+	height: 350px;
+    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth435.cur), pointer;
+}
+
+.mole {
+    cursor: pointer;
+    width: 120px;
+    cursor: url(https://cur.cursors-4u.net/others/oth-5/oth435.cur), pointer;
+}
+
+.timer {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff4500;
+    margin-right: 20px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div#gamespace img { position: absolute; }
+
+div#gamespace { position: relative; }
